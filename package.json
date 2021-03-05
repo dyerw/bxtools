@@ -1,0 +1,39 @@
+{
+  "name": "bxtools",
+  "version": "0.1.0",
+  "description": "Tools for playing B/X D&D",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Liam Dyer",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/optimizer-cssnano": "^2.0.0-nightly.616",
+    "@parcel/optimizer-htmlnano": "^2.0.0-nightly.616",
+    "@parcel/packager-css": "^2.0.0-nightly.616",
+    "@parcel/packager-html": "^2.0.0-nightly.616",
+    "@parcel/transformer-css": "^2.0.0-nightly.616",
+    "@parcel/transformer-html": "^2.0.0-nightly.616",
+    "@parcel/transformer-postcss": "^2.0.0-nightly.616",
+    "@parcel/transformer-posthtml": "^2.0.0-nightly.616",
+    "@types/ramda": "^0.27.38",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@types/uuid": "^8.3.0",
+    "autoprefixer": "^10.2.4",
+    "parcel": "^2.0.0-beta.1",
+    "postcss": "^8.2.7",
+    "tailwindcss": "^2.0.3"
+  },
+  "dependencies": {
+    "@svgr/parcel-plugin-svgr": "^5.5.0",
+    "dice-typescript": "^1.6.1",
+    "ramda": "^0.27.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "uuid": "^3.4.0"
+  }
+}
